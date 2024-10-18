@@ -7,7 +7,7 @@ export default function Presentation() {
             <div>
                 <h1 className="text-white font-bold text-5xl ml-5 mt-5">Bonjour, je suis Nourry Nicolas</h1>
                 <p className="text-gray-300 text-2xl ml-5 mt-10">Je suis un développeur junior Back-end.
-                    Aussi j&#39;aime explorer de nouvelles technologies ou d&#39;approfondir d&#39;autre.</p>
+                     Aussi j&#39;aime explorer de nouvelles technologies ou d&#39;approfondir d&#39;autre.</p>
                 <div>
 
                 </div>
