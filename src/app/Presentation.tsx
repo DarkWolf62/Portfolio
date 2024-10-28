@@ -12,7 +12,7 @@ export default function Presentation() {
 
                 </div>
             </div>
-            <img className="w-1/4 object-cover m-10 rounded transition-all duration-500 ease-in-out transform hover:scale-105" src="/public/images/portrait.JPG" alt="Portrait"/>
+            <img className="w-1/4 object-cover m-10 rounded transition-all duration-500 ease-in-out transform hover:scale-105" src="/images/portrait.JPG" alt="Portrait"/>
         </div>
     </div>
   );
