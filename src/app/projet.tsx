@@ -13,7 +13,7 @@ export default function Projet() {
                            className="rounded"/>
                     <h3 className="text-xl font-semibold mt-4">Projet 1</h3>
                     <p className="text-gray-600">
-                        Description de votre projet, les technologies utilisées, et l’objectif de ce projet.
+                        Description de votre projet, les technologies utilisées, et l&rsquo;objectif de ce projet.
                     </p>
                 </div>
             </div>

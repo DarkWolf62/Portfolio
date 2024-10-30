@@ -22,11 +22,11 @@ export default function Home() {
 
           {/* Contact */}
           <section id="contact" className="bg-white py-16 px-8">
-              <h2 className="text-3xl font-bold text-center mb-8">Contact</h2>
-              <div className="text-center">
-                  <p className="text-lg mb-4">Des questions ? N'hésitez pas à me contacter !</p>
-                  <a href="mailto:tonemail@example.com" className="text-blue-500 underline">nicolasnourry61@gmail.com</a>
-              </div>
+             <h2 className="text-3xl font-bold text-center mb-8">Contact</h2>
+             <div className="text-center">
+                <p className="text-lg mb-4">Des questions ? N&rsquo;hésitez pas à me contacter !</p>
+                <a href="mailto:tonemail@example.com" className="text-blue-500 underline">nicolasnourry61@gmail.com</a>
+             </div>
           </section>
 
           {/* Footer */}
