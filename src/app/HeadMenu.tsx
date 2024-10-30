@@ -1,20 +1,19 @@
 import React from 'react';
 
-const HeadMenu: React.FC = () => {
-  return (
-    <div className="flex items-center bg-gray-900 p-4 shadow-2xl fixed w-full top-0 z-50">
-      <h1 className="mr-5 text-white font-bold text-2xl">Portfolio</h1>
-      <button className="mr-5 bg-gray-700 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded text-xl">
-        Présentation
-      </button>
-      <button className="mr-5 bg-gray-700 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded text-xl">
-        Compétences
-      </button>
-      <button className="mr-5 bg-gray-700 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded text-xl">
-        Projets
-      </button>
-    </div>
-  );
+export default function HeadMenu() {
+    return (
+        <header className="bg-gray-900 text-white p-4 flex justify-between items-center fixed top-0 left-0 w-full z-10">
+            <h1 className="text-xl font-bold">Nourry Nicolas</h1>
+            <nav className="flex-1 text-center">
+                <a href="#about" className="px-4">À propos</a>
+                <a href="#projects" className="px-4">Projets</a>
+                <a href="#skills" className="px-4">Compétences</a>
+                <a href="#contact" className="px-4">Contact</a>
+            </nav>
+            <div>
+                <a href="https://github.com/yourusername" className="px-2">GitHub</a>
+                <a href="https://gitlab.com/yourusername" className="px-2">GitLab</a>
+            </div>
+        </header>
+    );
 }
-
-export default HeadMenu;
